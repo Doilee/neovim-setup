@@ -13,10 +13,6 @@ return require('packer').startup(function(use)
 
   use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
 
-  --use({
-  --  'rose-pine/neovim'
-  --})
-
   use {
       'nvim-treesitter/nvim-treesitter',
       run = ':TSUpdate'
